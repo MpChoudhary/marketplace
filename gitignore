@@ -17,3 +17,6 @@
 
 *.idea/
 *out/
+
+# SQL server properties #
+*.properties
