@@ -20,3 +20,9 @@
 
 # SQL server properties #
 *.properties
+
+# Spring bean configuration #
+*src/main/web/
+
+# Spring boot DB configuration #
+*src/main/java/com/marketplace/config/

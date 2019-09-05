@@ -11,7 +11,7 @@ import com.marketplace.message.response.ResponseMessage;
 import com.marketplace.model.Role;
 import com.marketplace.model.RoleName;
 import com.marketplace.model.User;
-import com.marketplace.repository.UserRepository;
+import com.marketplace.dao.UserRepository;
 import com.marketplace.security.jwt.JwtProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.marketplace.message.request.SignUpForm;
-import com.marketplace.repository.RoleRepository;
+import com.marketplace.dao.RoleRepository;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
